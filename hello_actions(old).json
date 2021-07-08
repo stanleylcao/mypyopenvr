@@ -1,0 +1,24 @@
+{
+      "default_bindings": [
+         {
+            "controller_type" : "knuckles",
+            "binding_url" : "hello_bindings_knuckles.json"
+         },
+         {
+            "controller_type" : "generic",
+            "binding_url" : "hello_bindings_generic.json"
+         }
+      ], 
+  "actions": [
+    {
+      "name": "/actions/demo/in/LeftHand_Anim",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/demo/in/RightHand_Anim",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    }
+  ]
+}

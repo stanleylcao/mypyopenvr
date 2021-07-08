@@ -1,0 +1,25 @@
+{
+    "bindings" : {
+       "/actions/demo" : {
+          "poses" : [
+          ],
+          "haptics" : [
+          ],         
+          "skeleton" : [
+             {
+                "output" : "/actions/demo/in/lefthand_anim",
+                "path" : "/user/hand/left/input/skeleton/left"
+             },
+             {
+                "output" : "/actions/demo/in/righthand_anim",
+                "path" : "/user/hand/right/input/skeleton/right"
+             }
+          ],
+          "sources" : [
+          ]
+       }
+    },
+    "controller_type" : "knuckles",
+    "description" : "Bindings for knuckles",
+    "name" : "Bindings for a knuckles controller"
+ }
